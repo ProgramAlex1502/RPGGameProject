@@ -4,7 +4,9 @@ project(RPGGameProject)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(RPGGameProject src/main.cpp
-        src/Entity.h
+        src/Entity.hpp
         src/Entity.cpp
-        src/Character.h
-        src/Character.cpp)
+        src/Character.hpp
+        src/Character.cpp
+        src/Archer.cpp
+        src/Archer.hpp)

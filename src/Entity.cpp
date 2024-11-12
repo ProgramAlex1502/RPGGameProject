@@ -1,4 +1,4 @@
-#include "Entity.h"
+#include "Entity.hpp"
 
 #include <iostream>
 #include <ostream>
@@ -12,6 +12,26 @@ Entity::Entity(std::string name, int pv, int force, int mana, int intel) {
     m_intel = intel;
 }
 
+Entity::~Entity() {}
+
+
 void Entity::printInfo() {
     std::cout << "Name: " << m_name << std::endl;
 }
+
+void Entity::attribInfos() {
+
+}
+
+void Entity::attack(Entity &enemy) {
+
+}
+
+int Entity::getPV() const {
+    return m_pv;
+}
+
+void Entity::setPV(int pv) {
+    this->m_pv = pv;
+}
+

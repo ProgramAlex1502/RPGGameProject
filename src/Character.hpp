@@ -1,7 +1,7 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
-#include "Entity.h"
+#include "Entity.hpp"
 
 class Character : Entity {
 protected:
@@ -10,7 +10,7 @@ protected:
 
 public:
     Character(int exp, int level);
-
+    void attack(Entity &enemy) override;
 };
 
 #endif
