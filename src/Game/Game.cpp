@@ -39,7 +39,7 @@ void Game::run() {
 
         switch(choice) {
             case 1:
-                Combat(player, Zombie{}).insideCombat();
+                Combat(player, Enemy::generateEnemy()).insideCombat();
                 break;
             case 2:
                 break;

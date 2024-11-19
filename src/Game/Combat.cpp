@@ -32,7 +32,7 @@ void Combat::insideCombat() {
         std::cout << "1. Attaquer\n";
         std::cout << "2. Fuir\n";
 
-        Utils::validateInput(choice, "Votre choix :");
+        Utils::validateInput(choice, "Que voulez-vous faire ? :");
 
         switch (choice) {
             case 1:

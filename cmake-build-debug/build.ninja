@@ -85,11 +85,11 @@ build CMakeFiles/RPGGameProject.dir/src/Game/Combat.cpp.obj: CXX_COMPILER__RPGGa
   OBJECT_DIR = CMakeFiles\RPGGameProject.dir
   OBJECT_FILE_DIR = CMakeFiles\RPGGameProject.dir\src\Game
 
-build CMakeFiles/RPGGameProject.dir/src/Entities/Enemies/Enemy.cpp.obj: CXX_COMPILER__RPGGameProject_unscanned_Debug C$:/Users/alexi/OneDrive/fac/L3_ISEI/ProgrammationObjetS1/RPGGame/RPGGameProject/src/Entities/Enemies/Enemy.cpp || cmake_object_order_depends_target_RPGGameProject
-  DEP_FILE = CMakeFiles\RPGGameProject.dir\src\Entities\Enemies\Enemy.cpp.obj.d
+build CMakeFiles/RPGGameProject.dir/src/Entities/Enemy.cpp.obj: CXX_COMPILER__RPGGameProject_unscanned_Debug C$:/Users/alexi/OneDrive/fac/L3_ISEI/ProgrammationObjetS1/RPGGame/RPGGameProject/src/Entities/Enemy.cpp || cmake_object_order_depends_target_RPGGameProject
+  DEP_FILE = CMakeFiles\RPGGameProject.dir\src\Entities\Enemy.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\RPGGameProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\RPGGameProject.dir\src\Entities\Enemies
+  OBJECT_FILE_DIR = CMakeFiles\RPGGameProject.dir\src\Entities
 
 
 # =============================================================================
@@ -99,7 +99,7 @@ build CMakeFiles/RPGGameProject.dir/src/Entities/Enemies/Enemy.cpp.obj: CXX_COMP
 #############################################
 # Link the executable RPGGameProject.exe
 
-build RPGGameProject.exe: CXX_EXECUTABLE_LINKER__RPGGameProject_Debug CMakeFiles/RPGGameProject.dir/src/main.cpp.obj CMakeFiles/RPGGameProject.dir/src/Entities/Role.cpp.obj CMakeFiles/RPGGameProject.dir/src/Entities/Entity.cpp.obj CMakeFiles/RPGGameProject.dir/src/Entities/Player.cpp.obj CMakeFiles/RPGGameProject.dir/src/Game/Game.cpp.obj CMakeFiles/RPGGameProject.dir/src/Game/Combat.cpp.obj CMakeFiles/RPGGameProject.dir/src/Entities/Enemies/Enemy.cpp.obj
+build RPGGameProject.exe: CXX_EXECUTABLE_LINKER__RPGGameProject_Debug CMakeFiles/RPGGameProject.dir/src/main.cpp.obj CMakeFiles/RPGGameProject.dir/src/Entities/Role.cpp.obj CMakeFiles/RPGGameProject.dir/src/Entities/Entity.cpp.obj CMakeFiles/RPGGameProject.dir/src/Entities/Player.cpp.obj CMakeFiles/RPGGameProject.dir/src/Game/Game.cpp.obj CMakeFiles/RPGGameProject.dir/src/Game/Combat.cpp.obj CMakeFiles/RPGGameProject.dir/src/Entities/Enemy.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RPGGameProject.dir

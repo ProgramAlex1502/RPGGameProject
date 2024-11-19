@@ -8,6 +8,7 @@
 #include <string>
 #include <iostream>
 #include <limits>
+#include <random>
 
 class Utils {
 
@@ -15,6 +16,13 @@ public:
     static void clearInput() {
         std::cin.clear();
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
+
+    static int generateRandomInt(int min, int max) {
+        std::random_device rd; //Génère un seed aléatoire
+        std::mt19937 gen(rd()); //Utilisation du générateur MersenTwister
+        std::uniform_int_distribution<> dis(min, max); // plage [min, max] d'entier
+        return dis(gen);
     }
 
     template<typename T>

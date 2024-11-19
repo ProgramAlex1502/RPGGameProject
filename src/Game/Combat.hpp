@@ -5,7 +5,7 @@
 #ifndef COMBAT_HPP
 #define COMBAT_HPP
 #include "../Entities/Player.hpp"
-#include "../Entities/Enemies/Enemy.hpp"
+#include "../Entities/Enemy.hpp"
 
 
 class Combat {

@@ -16,6 +16,6 @@ add_executable(RPGGameProject src/main.cpp
         src/Game/Game.hpp
         src/Game/Combat.cpp
         src/Game/Combat.hpp
-        src/Entities/Enemies/Enemy.cpp
-        src/Entities/Enemies/Enemy.hpp
+        src/Entities/Enemy.cpp
+        src/Entities/Enemy.hpp
 )
