@@ -1,3 +1,17 @@
 # ninja log v6
-10	1007	7531276684948717	CMakeFiles/RPGGameProject.dir/src/main.cpp.obj	82ff119e75f9ff48
-1013	1695	7531276694980242	RPGGameProject.exe	f80363f6cb2e01a
+9	648	7531970115894654	CMakeFiles/RPGGameProject.dir/src/Entity.cpp.obj	1e71f4b4eb7b721a
+24	575	7533032443756208	CMakeFiles/RPGGameProject.dir/src/main.cpp.obj	82ff119e75f9ff48
+10	743	7531969268226814	CMakeFiles/RPGGameProject.dir/src/Player.cpp.obj	57fbfd39f363c58b
+34	950	7531525458496886	CMakeFiles/RPGGameProject.dir/src/Classe.cpp.obj	de995217016d6435
+576	788	7533032449282983	RPGGameProject.exe	a381afeb2d77e3e3
+22	468	7531357734600828	CMakeFiles/RPGGameProject.dir/src/Character.cpp.obj	54417fb5c8227249
+3	353	7537170735246335	build.ninja	c4b71383b0a65784
+127	992	7531967482616520	CMakeFiles/RPGGameProject.dir/src/Archer.cpp.obj	fecbba6bbba9ee79
+86	1009	7531967482216504	CMakeFiles/RPGGameProject.dir/src/Role.cpp.obj	c06a4e32b1df5c67
+20	920	7532251246303322	CMakeFiles/RPGGameProject.dir/src/Roles/Archer.cpp.obj	ea35a01c7e63f159
+33	824	7531972620041674	CMakeFiles/RPGGameProject.dir/src/Entities/Entity.cpp.obj	d1c87124d53cfc3f
+60	840	7531972620316969	CMakeFiles/RPGGameProject.dir/src/Roles/Role.cpp.obj	b4612953b2f297f9
+29	968	7532251246394539	CMakeFiles/RPGGameProject.dir/src/Entities/Player.cpp.obj	9886376fd3771633
+39	915	7532251246489734	CMakeFiles/RPGGameProject.dir/src/Roles/Warrior.cpp.obj	60f7f8d13e78c6a1
+51	918	7532251246610266	CMakeFiles/RPGGameProject.dir/src/Roles/Mage.cpp.obj	5354ff039a947761
+16	743	7532266710610188	CMakeFiles/RPGGameProject.dir/src/Utils.cpp.obj	9a2698316ef847ce
