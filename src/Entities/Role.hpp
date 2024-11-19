@@ -33,4 +33,14 @@ public:
     Warrior() : Role("Warrior", 25, 40, 10, 25) {};
 };
 
+class Archer : public Role {
+public:
+    Archer() : Role("Archer", 20, 10, 30, 40) {};
+};
+
+class Mage : public Role {
+public:
+    Mage() : Role("Mage", 15, 15, 40, 30) {};
+};
+
 #endif //ROLE_HPP

@@ -17,7 +17,9 @@ protected:
 
 
 public:
+    Entity();
     Entity(std::string name);
+    Entity(std::string name, int HP, int attack, int defense);
     virtual ~Entity() = default;
 
     std::string getName();
@@ -25,6 +27,7 @@ public:
 
     virtual void setStats();
     int getHP();
+    void setHP(int HP);
     int getAttack();
     int getDefense();
 

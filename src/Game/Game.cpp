@@ -3,7 +3,9 @@
 //
 
 #include <iostream>
+
 #include "Game.hpp"
+#include "Combat.hpp"
 #include "../Utils/UI.hpp"
 #include "../Utils/Utils.hpp"
 
@@ -37,6 +39,7 @@ void Game::run() {
 
         switch(choice) {
             case 1:
+                Combat(player, Zombie{}).insideCombat();
                 break;
             case 2:
                 break;

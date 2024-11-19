@@ -5,17 +5,21 @@
 #ifndef COMBAT_HPP
 #define COMBAT_HPP
 #include "../Entities/Player.hpp"
+#include "../Entities/Enemies/Enemy.hpp"
 
 
 class Combat {
-
 private:
     Player player;
-    Entity enemy;
+    Enemy enemy;
+    bool inCombat;
 
 public:
-    Combat(Player player);
+    Combat();
+    Combat(Player player, Enemy enemy);
     ~Combat();
+
+    void insideCombat();
 
 };
 

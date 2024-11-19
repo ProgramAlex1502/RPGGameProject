@@ -30,6 +30,13 @@ public:
         std::cout << "=============================\n";
     }
 
+    static void printCombatMenu() {
+        std::cout << "=============================\n";
+        std::cout << "         COMBAT              \n";
+        std::cout << "=============================\n";
+
+    }
+
 };
 
 

@@ -5,7 +5,7 @@
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
 #include "Entity.hpp"
-#include "../Roles/Role.hpp"
+#include "Role.hpp"
 
 
 class Player : public Entity {
