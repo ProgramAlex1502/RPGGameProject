@@ -16,6 +16,10 @@ add_executable(RPGGameProject src/main.cpp
         src/Roles/Warrior.hpp
         src/Roles/Mage.cpp
         src/Roles/Mage.hpp
-        src/Utils.cpp
-        src/Utils.hpp
+        src/Utils/Utils.cpp
+        src/Utils/Utils.hpp
+        src/Utils/UI.cpp
+        src/Utils/UI.hpp
+        src/Game/Game.cpp
+        src/Game/Game.hpp
 )

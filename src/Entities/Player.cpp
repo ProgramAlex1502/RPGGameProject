@@ -4,6 +4,9 @@
 
 #include "Player.hpp"
 
+Player::Player() : Entity("Player"), m_role("", 0, 0, 0, 0) {
+}
+
 Player::Player(Role &role) : Entity("Player"), m_role(role) {
     setName(getName() + " " + role.getRoleName());
     Player::setStats();

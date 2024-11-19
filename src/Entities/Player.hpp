@@ -14,6 +14,7 @@ protected:
     Role m_role;
 
 public:
+    Player();
     Player(Role &role);
 
     void setStats();
