@@ -15,7 +15,6 @@ void Entity::setStats() {
     this->defense = 0;
 }
 
-
 std::string Entity::getName() {
     return name;
 }
@@ -27,7 +26,6 @@ void Entity::setName(std::string name) {
 int Entity::getHP() {
     return this->HP;
 }
-
 
 int Entity::getAttack() {
     return this->attack;

@@ -12,13 +12,12 @@ add_executable(RPGGameProject src/main.cpp
         src/Roles/Archer.hpp
         src/Entities/Player.cpp
         src/Entities/Player.hpp
-        src/Roles/Warrior.cpp
-        src/Roles/Warrior.hpp
         src/Roles/Mage.cpp
         src/Roles/Mage.hpp
         src/Utils/Utils.hpp
-        src/Utils/UI.cpp
         src/Utils/UI.hpp
         src/Game/Game.cpp
         src/Game/Game.hpp
+        src/Game/Combat.cpp
+        src/Game/Combat.hpp
 )

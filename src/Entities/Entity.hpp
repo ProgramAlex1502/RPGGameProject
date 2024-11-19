@@ -20,7 +20,6 @@ public:
     Entity(std::string name);
     virtual ~Entity() = default;
 
-
     std::string getName();
     void setName(std::string name);
 

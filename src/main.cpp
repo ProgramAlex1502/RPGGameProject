@@ -1,7 +1,6 @@
 #include <iostream>
 
 #include "Roles/Archer.hpp"
-#include "Roles/Warrior.hpp"
 #include "Entities/Player.hpp"
 #include "Roles/Mage.hpp"
 #include "Utils/Utils.hpp"

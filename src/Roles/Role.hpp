@@ -27,6 +27,10 @@ public:
 
 };
 
+class Warrior : public Role {
 
+public:
+    Warrior() : Role("Warrior", 25, 40, 10, 25) {};
+};
 
 #endif //ROLE_HPP
