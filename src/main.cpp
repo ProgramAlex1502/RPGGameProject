@@ -24,14 +24,8 @@ Player selectClass() {
     Mage mage{};
 
     UI::printSelectClass();
-    std::cin >> choice;
 
-    while (choice < 1 || choice > 3) {
-        Utils::clearInput();
-        std::cout << "Option Invalide\n";
-        std::cout << "Choisissez une option :";
-        std::cin >> choice;
-    }
+    Utils::validateInput(choice, "Choisissez une option :");
 
     switch (choice) {
         case 1:

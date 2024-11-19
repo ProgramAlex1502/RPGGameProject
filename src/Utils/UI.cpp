@@ -13,7 +13,6 @@ void UI::printSelectClass() {
     std::cout << "2. Mage - Lanceur de sorts puissant mais fragile en défense.\n";
     std::cout << "3. Archer - Combattant agile spécialisé dans les attaques à distance.\n";
     std::cout << "=============================\n";
-    std::cout << "Choisissez une option :";
 }
 
 
@@ -26,5 +25,4 @@ void UI::printGameMenu() {
     std::cout << "3. Inventaire\n";
     std::cout << "4. Quitter\n";
     std::cout << "=============================\n";
-    std::cout << "Choisissez une option :";
 }

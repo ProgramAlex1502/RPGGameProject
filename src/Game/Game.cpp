@@ -29,18 +29,11 @@ void Game::start() {
 void Game::run() {
     std::cout << player.getName() << std::endl;
     while(running) {
-        int choice = 0;
+        int choice;
 
         UI::printGameMenu();
 
-        std::cin >> choice;
-
-        while (choice < 1 || choice > 4) {
-            Utils::clearInput();
-            std::cout << "Option Invalide\n";
-            std::cout << "Choisissez une option :";
-            std::cin >> choice;
-        }
+        Utils::validateInput(choice, "Choisissez une option :");
 
         switch(choice) {
             case 1:
