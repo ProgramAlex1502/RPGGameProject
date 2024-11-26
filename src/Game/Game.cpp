@@ -35,7 +35,7 @@ void Game::run() {
 
         UI::printGameMenu();
 
-        Utils::validateInput(choice, "Choisissez une option :");
+        Utils::validateInput(choice, "Choisissez une option : ");
 
         switch(choice) {
             case 1:

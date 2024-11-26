@@ -7,9 +7,12 @@
 
 #include <iostream>
 
+#include "Utils.hpp"
+
 class UI {
 public:
     static void printSelectClass() {
+        system("cls");
         std::cout << "=============================\n";
         std::cout << "    SELECTION DE CLASSE      \n";
         std::cout << "=============================\n";
@@ -20,6 +23,7 @@ public:
     }
 
     static void printGameMenu() {
+        system("cls");
         std::cout << "=============================\n";
         std::cout << "         XARSAROTH           \n";
         std::cout << "=============================\n";
@@ -35,6 +39,11 @@ public:
         std::cout << "         COMBAT              \n";
         std::cout << "=============================\n";
 
+    }
+
+    static void printContinuePhrase() {
+        std::cout << "Appuyez sur une touche pour continuer...";
+        std::cin.get();
     }
 
 };

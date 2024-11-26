@@ -16,9 +16,10 @@ Entity::Entity(std::string name) {
     Entity::setStats();
 }
 
-Entity::Entity(std::string name, int HP, int attack, int defense) {
+Entity::Entity(std::string name, int HPMax, int attack, int defense) {
     this->name = name;
-    this->HP = HP;
+    this->HPMax = HPMax;
+    this->HP = HPMax;
     this->attack = attack;
     this->defense = defense;
 }
@@ -42,7 +43,14 @@ int Entity::getHP() {
 }
 
 void Entity::setHP(int HP) {
+    if (HP > HPMax) {
+        HP = HPMax;
+    }
     this->HP = HP;
+}
+
+int Entity::getHPMax() {
+    return this->HPMax;
 }
 
 int Entity::getAttack() {

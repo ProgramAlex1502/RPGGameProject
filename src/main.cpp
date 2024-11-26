@@ -22,7 +22,7 @@ Player selectClass() {
 
     UI::printSelectClass();
 
-    Utils::validateInput(choice, "Choisissez une option :");
+    Utils::validateInput(choice, "Choisissez une option (1. par défaut) : ");
 
     switch (choice) {
         case 1:
@@ -32,6 +32,6 @@ Player selectClass() {
         case 3:
             return Player(archer);
         default:
-            return Player();
+            return Player(warrior);
     }
 }

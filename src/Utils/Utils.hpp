@@ -27,7 +27,6 @@ public:
 
     template<typename T>
         static T validateInput(T& val, std::string message) {
-
         while (true) {
             std::cout << message;
             if (std::cin >> val) {
